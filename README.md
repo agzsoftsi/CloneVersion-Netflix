@@ -26,7 +26,10 @@ npx create-react-app app
 cd app
 npm start
 ```
-
+### Fist Install Dependencies:
+```sh
+npm i axios
+```
 #### - a. Get All Movies
 
 
