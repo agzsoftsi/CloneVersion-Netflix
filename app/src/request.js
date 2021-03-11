@@ -5,14 +5,14 @@ const requests = {
   fetchTrending : `/trending/all/week?api_key=${API_KEY}&language=en=us&sort_by=popularity.desc`,
   fetchNetflixOriginals : `/discover/tv?api_key=${API_KEY}&with_networks=213`,
   fetchTopRated : `/movie/top_rated?api_key=${API_KEY}&language=en=us`,
-  fetchActionMovies : `/discover/movie?api_key=${API_KEY}&with_generes=28`,
-  fetchAnimationMovies : `/discover/movie?api_key=${API_KEY}&with_generes=16`,
-  fetchComedyMovies : `/discover/movie?api_key=${API_KEY}&with_generes=35`,
-  fetchHorrorMovies : `/discover/movie?api_key=${API_KEY}&with_generes=27`,
-  fetchRomanceMovies : `/discover/movie?api_key=${API_KEY}&with_generes=10749`,
-  fetchAdventureMovies : `/discover/movie?api_key=${API_KEY}&with_generes=12`,
-  fetchScienceFicMovies : `/discover/movie?api_key=${API_KEY}&with_generes=878`,
-  fetchWarMovies : `/discover/movie?api_key=${API_KEY}&with_generes=10752`,  
+  fetchActionMovies : `/discover/movie?api_key=${API_KEY}&with_genres=28&sort_by=popularity.desc`,
+  fetchAnimationMovies : `/discover/movie?api_key=${API_KEY}&with_genres=16&sort_by=popularity.desc`,
+  fetchComedyMovies : `/discover/movie?api_key=${API_KEY}&with_genres=35&sort_by=popularity.desc`,
+  fetchHorrorMovies : `/discover/movie?api_key=${API_KEY}&with_genres=27&sort_by=popularity.desc`,
+  fetchRomanceMovies : `/discover/movie?api_key=${API_KEY}&with_genres=10749&sort_by=popularity.desc`,
+  fetchAdventureMovies : `/discover/movie?api_key=${API_KEY}&with_genres=12&sort_by=popularity.desc`,
+  fetchScienceFicMovies : `/discover/movie?api_key=${API_KEY}&with_genres=878&sort_by=popularity.desc`,
+  
   fetch
 }
 
