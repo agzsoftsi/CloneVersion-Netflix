@@ -1,4 +1,19 @@
 body {
     background: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App .original{
+    background: #000;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    transition: transform 450ms;
+    
+}
+
+.App .original:hover{
+    background: rgb(31, 0, 0);
+    transform: scale(1.1);
+    
 }
 

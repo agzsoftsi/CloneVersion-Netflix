@@ -4,6 +4,10 @@
     margin-left: 20px;
 }
 
+.row h2{
+    padding-left: 20px;
+}
+
 .row_posters {
     /* To allign in a rowise*/
     display: flex;

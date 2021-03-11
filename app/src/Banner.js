@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import axios from './axios';
 import requests from "./request";
 import './Banner.css';
-import { IconButton } from "@material-ui/core";
+import PlayArrowIcon from '@material-ui/icons/PlayArrow';
+import AddIcon from '@material-ui/icons/Add';
 
 function Banner() {
     const [movie,setMovie] =useState ([]);
@@ -24,18 +25,18 @@ function Banner() {
     return (
         <header className = "banner"
         style={{
-            backgroundSize : "cover",
+            
             backgroundImage : `url(
             "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
-            backgroundPosition : "center center",
+            
         }}
         >
         <div className = "banner__contents">
         <h1 className="banner__title"> { movie?.title || movie?.name || movie?.original_name }
         </h1>
         <div className = "banner__button" >
-        <IconButton><button className = "banner__button">Play</button></IconButton>
-        <IconButton><button className = "banner__button">My List</button></IconButton>
+        <button><PlayArrowIcon/> <i>Play</i></button>
+        <button><AddIcon/> <i>My List</i></button>
            
         </div>
         <h1 className="banner__description">
