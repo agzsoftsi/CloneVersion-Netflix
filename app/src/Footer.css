@@ -1,7 +1,90 @@
-.TITLE {
-    color: white;
-    
-    padding-left: 500px;
-    align-self: start;
+.footer {
+    margin-top: 50px;
+    border-top: rgb(54, 54, 54) solid 3px;
+    color: rgb(161, 161, 161);   
+    padding: 50px;
+    text-align: center;
+     
+}
+
+.footer .footer_info{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
    
+   
+}
+
+.footer .footer_info .block{
+    text-align: left;
+    font-size: 14px;
+    
+ }
+
+ .footer .footer_info .block li{
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 7px;
+ }
+
+ .footer .footer_info .block li:hover{
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 7px;
+    color: rgb(194, 194, 194);
+ }
+
+.footer .footer_phone{
+    text-align: left;
+}
+
+
+.footer .footer_language{
+    text-align: left;
+
+
+}
+
+.footer .footer_language > p{
+    font-size: 12px;
+
+}
+
+.footer .footer_language button{
+    outline: none;
+    border-radius: 5px;
+    font-style: normal;
+    background: none;
+    border: rgb(54, 54, 54) solid 3px;
+    padding: 10px;
+    color: rgb(119, 119, 119);
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+.footer .footer_language button:hover{
+ 
+    font-style: normal;
+    background: rgb(194, 194, 194);
+    border: rgb(194, 194, 194) solid 3px;
+    padding: 10px;
+    color: rgb(7, 7, 7);
+    
+}
+
+.footer .footer_language button span{
+    position: relative;
+   top: -6px;
+   margin: 0px 3px;
+    
+}
+
+.footer .footer_autor{
+    border-top: rgb(54, 54, 54) solid 1px;
+    margin-top: 5px;
+    padding:10px;
+    font-size: 12px;
+
 }
